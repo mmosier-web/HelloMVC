@@ -15,7 +15,6 @@ namespace HelloMVC.Tests
             var result = controller.Index();
 
             Assert.IsType<ViewResult>(result);
-
         }
     }
 }
