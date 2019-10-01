@@ -1,5 +1,5 @@
 using System;
-using HelloMVC.Controller;
+using HelloMVC.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Xunit;
 

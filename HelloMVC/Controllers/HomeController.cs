@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HelloMVC.Controller
+namespace HelloMVC.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
        public ViewResult Index()
         {
-            return null;
+            return View();
         }
     }
 }
